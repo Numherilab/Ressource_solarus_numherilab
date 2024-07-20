@@ -10,7 +10,7 @@ map{ id = "monstre/gelidrak", description = "gelidrak" }
 map{ id = "monstre/khorneth" }
 map{ id = "monstre/khotor", description = "khotor" }
 map{ id = "monstre/master_arbror" }
-map{ id = "monstre/poutroxor", description = "poutroxor" }
+map{ id = "monstre/poutroxor", description = "monstre/poutroxor" }
 map{ id = "monstre/test" }
 map{ id = "monstre/test_2" }
 map{ id = "monstre/test_3" }

@@ -10,8 +10,8 @@ properties{
 
 tile{
   layer = 0,
-  x = -16,
-  y = 56,
+  x = 0,
+  y = 0,
   width = 1000,
   height = 1000,
   pattern = "grass_light",
