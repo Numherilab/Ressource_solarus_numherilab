@@ -1,4 +1,4 @@
--- Lua script of item 01 - potion de force.
+-- Lua script of item clés/clé_9.
 -- This script is executed only once for the whole game.
 
 -- Feel free to modify the code below.

@@ -1,4 +1,4 @@
--- Lua script of item potion de regen (temp).
+-- Lua script of item clés/clé_4.
 -- This script is executed only once for the whole game.
 
 -- Feel free to modify the code below.

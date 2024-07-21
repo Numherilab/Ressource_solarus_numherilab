@@ -1,4 +1,4 @@
--- Lua script of item aiguillon de hollow knight.
+-- Lua script of item clés/clé_8.
 -- This script is executed only once for the whole game.
 
 -- Feel free to modify the code below.

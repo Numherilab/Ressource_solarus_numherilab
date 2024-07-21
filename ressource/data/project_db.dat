@@ -1,3 +1,4 @@
+map{ id = "monstre/Mowatulla" }
 map{ id = "monstre/aquadraco", description = "aquadraco" }
 map{ id = "monstre/arrghus" }
 map{ id = "monstre/carock" }
@@ -10,6 +11,7 @@ map{ id = "monstre/gelidrak", description = "gelidrak" }
 map{ id = "monstre/khorneth" }
 map{ id = "monstre/khotor", description = "khotor" }
 map{ id = "monstre/master_arbror" }
+map{ id = "monstre/papillosaur_king" }
 map{ id = "monstre/poutroxor", description = "monstre/poutroxor" }
 map{ id = "monstre/test" }
 map{ id = "monstre/test_2" }
@@ -286,7 +288,7 @@ sprite{ id = "ground_effects/leaves", description = "Leaves" }
 sprite{ id = "ground_effects/water_splash", description = "Water splash" }
 sprite{ id = "hero/ground1", description = "Grass under hero" }
 sprite{ id = "hero/ground2", description = "Shallow water under hero" }
-sprite{ id = "hero/shield_1_above", description = "Shield 1 Above" }
+sprite{ id = "hero/shield1", description = "Shield 1 Above" }
 sprite{ id = "hero/shield_1_below", description = "Shield 1 Below" }
 sprite{ id = "hero/shield_collision_mask", description = "Shield Collision Mask" }
 sprite{ id = "hero/sword1", description = "Hero sword 1" }
@@ -806,31 +808,34 @@ sound{ id = "wrong", description = "wrong" }
 sound{ id = "wrong2", description = "wrong2" }
 sound{ id = "wrong3", description = "wrong3" }
 
-item{ id = "01 - potion de force" }
-item{ id = "01 potion de regen (temp)" }
-item{ id = "01 potion de vitesse" }
-item{ id = "01 potion_de coeur" }
-item{ id = "aiguillon de hollow knight" }
 item{ id = "arc", description = "arc" }
 item{ id = "bomb", description = "Bombs (x1 / x3 / x5)" }
 item{ id = "bomb_bag", description = "Bomb bag (small / large / huge)" }
 item{ id = "bomb_counter", description = "Bombs counter" }
 item{ id = "boomerang", description = "boomerang" }
-item{ id = "bracelet de force" }
 item{ id = "carquois" }
-item{ id = "consumables/magic_jar", description = "Magic Jar (small / big)" }
+item{ id = "clés/clé_1" }
+item{ id = "clés/clé_2" }
+item{ id = "clés/clé_3" }
+item{ id = "clés/clé_4" }
+item{ id = "clés/clé_5" }
+item{ id = "clés/clé_6" }
+item{ id = "clés/clé_7" }
+item{ id = "clés/clé_8" }
+item{ id = "clés/clé_9" }
 item{ id = "dash" }
-item{ id = "equipment/magic_meter", description = "Magic Meter" }
 item{ id = "fire_rod", description = "fire_rod" }
 item{ id = "fleches" }
 item{ id = "gem", description = "Gem (x1 / x5 / x20 / x50 / x300)" }
+item{ id = "glove" }
 item{ id = "heart", description = "Heart" }
+item{ id = "heart_container" }
 item{ id = "hookshot", description = "Hookshot" }
-item{ id = "inventory/lantern", description = "Lantern" }
 item{ id = "lantern", description = "lantern" }
 item{ id = "magic_jar", description = "magic_jar" }
 item{ id = "magic_meter", description = "magic_meter" }
 item{ id = "money_bag", description = "Money bag (small / large / huge)" }
+item{ id = "palme" }
 item{ id = "pegasus_shoes", description = "Pegasus shoes" }
 item{ id = "potion_de_vie" }
 item{ id = "sword", description = "Sword" }
@@ -1034,12 +1039,9 @@ file{ path = "entities/torch.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "fonts/8_bit.png", author = "usr_share, Christopho", license = "Public domain" }
 file{ path = "fonts/enter_command.ttf", author = "Jeti", license = "CC BY 4.0" }
 file{ path = "items/arc.lua", author = "lionel", }
-file{ path = "items/consumables/magic_jar.lua", author = "Christopho", license = "GPL v3" }
-file{ path = "items/equipment/magic_meter.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "items/gem.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "items/heart.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "items/hookshot.lua", author = "Christopho", license = "GPL v3" }
-file{ path = "items/inventory/lantern.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "items/inventory/library/magic_item.lua", author = "Zakarisz", license = "GPL v3" }
 file{ path = "items/money_bag.lua", author = "Christopho", license = "GPL v3" }
 file{ path = "items/pegasus_shoes.lua", author = "Christopho", license = "GPL v3" }
@@ -1592,7 +1594,7 @@ file{ path = "sprites/hero/robyne_sword_brandish v2.0.ase", license = "CC BY-SA 
 file{ path = "sprites/hero/robyne_sword_loading v2.0.ase", license = "CC BY-SA 4.0" }
 file{ path = "sprites/hero/robyne_sword_tapping v2.0.ase", license = "CC BY-SA 4.0" }
 file{ path = "sprites/hero/robyne_victory v2.0.ase", license = "CC BY-SA 4.0" }
-file{ path = "sprites/hero/shield_1_above.dat", author = "Diarandor", license = "CC BY-SA 4.0" }
+file{ path = "sprites/hero/shield1.dat", author = "Diarandor", license = "CC BY-SA 4.0" }
 file{ path = "sprites/hero/shield_1_above.png", author = "Diarandor", license = "CC BY-SA 4.0" }
 file{ path = "sprites/hero/shield_1_below.dat", author = "Diarandor", license = "CC BY-SA 4.0" }
 file{ path = "sprites/hero/shield_1_below.png", author = "Diarandor", license = "CC BY-SA 4.0" }
