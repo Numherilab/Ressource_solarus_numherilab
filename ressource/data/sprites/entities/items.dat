@@ -169,6 +169,13 @@ animation{
   },
 }
 animation{
+  name = "heart_falling",
+  src_image = "items/heart.png",
+  directions = {
+    { x = 0, y = 0, frame_width = 8, frame_height = 8, origin_x = 4, origin_y = 5 },
+  },
+}
+animation{
   name = "hookshot",
   src_image = "entities/items.png",
   directions = {
